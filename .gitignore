@@ -1,0 +1,80 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Hien_mau/Hien_mau.sln
+
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Others
+*.log
+*.DS_Store
+*.dbmdl
+*.pidb
+*.psess
+*.vsp
+*.vspscc
+
+# Entity Framework
+Migrations/
+
+# Mac system files
+.DS_Store
+
+# User secrets
+secrets.json
+appsettings.json
+# node_modules (nếu có frontend)
+node_modules/
+
+# Firebase configuration
+google-services.json
+Config/google-services.json 
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Publish output
+publish/
+runtimes/
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.staticwebassets.endpoints.json
+Hien_mau.Tests/
